@@ -1,7 +1,7 @@
 import 'package:flutter_super_state/flutter_super_state.dart';
 
-// Modules extend `StoreModule` with it's own type
-class CounterModule extends StoreModule<CounterModule> {
+// Modules extend `StoreModule`
+class CounterModule extends StoreModule {
   // Read only property, to avoid accidentally setting `counter` without calling `setState`
   int get counter => _counter;
   var _counter = 0;

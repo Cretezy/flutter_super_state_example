@@ -1,7 +1,7 @@
 import 'package:flutter_super_state/flutter_super_state.dart';
 import 'package:state_test/src/store/counter.dart';
 
-class AuthModule extends StoreModule<AuthModule> {
+class AuthModule extends StoreModule {
   int get isLoggedIn => isLoggedIn;
   var _isLoggedIn = false;
 
